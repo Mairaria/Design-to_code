@@ -130,6 +130,8 @@ img {
 
 .photo {
     padding: 5px;
+    height: 70px;
+    width: 70px;
 }
 
 .repo {
@@ -176,13 +178,16 @@ img {
 }
 
 .screen-button:first-child {
-    background-color: #100a7a;
-    color: white;
-    border-radius: 10px;
-    line-height: 20px;
+    font: medium;
+    background-color: #ffffff;
+    color: black;
+    justify-items: center;
     align-items: center;
-    border: 0;
-    border-color: #100a7a;
+    border-color: #d2d6dc;
+    border-bottom-color: #d2d6dc;
+    border-right-color: #d2d6dc;
+    border-left-color: #d2d6dc;
+    border-top-color: #d2d6dc;
 }
 
 .screen-button:last-child {
